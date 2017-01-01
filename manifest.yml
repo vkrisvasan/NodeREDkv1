@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: kvwk3assgn1
+  host: kvwk3assgn1
+  disk_quota: 1024M
+  services:
+  - kvwk3assgn1-cloudantNoSQLDB
+  - kvwk3assgn1-iotf-service
